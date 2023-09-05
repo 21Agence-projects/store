@@ -189,12 +189,25 @@
     margin-left: -6%;
 }
 
+.offers .infos {
+    width: 597px;
+    font-size: 21px;
+    margin-left: -3%;
+}
+
+.offers .Membership {
+    width: 597px;
+    margin-left: -2%;
+}
+
+
 @media screen and (max-width: 600px) {
 
     .offers .col-lg-6,
     .offers .col-lg-12 {
         margin-left: 4%;
     }
+
 
     .text-center p {
         font-size: 31px;
@@ -210,6 +223,7 @@
 
     .offers .row .card-text {
         font-size: 20px;
+        padding: 0 53px;
     }
 
     .offers .box,
@@ -227,5 +241,22 @@
         margin-bottom: 31%;
     }
 
-    .offers .pargraph {}
+    .offers .question .info {
+        font-size: 22px;
+    }
+
+    .offers .question .infos {
+        font-size: 18px;
+        text-align: right;
+        margin-right: 16px;
+        margin-top: 19px;
+    }
+
+    .offers .Membership {
+        font-size: 22px !important;
+        text-align: right;
+        margin-right: 4%;
+        margin-top: 6px;
+    }
+
 }

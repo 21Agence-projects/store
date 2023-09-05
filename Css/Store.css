@@ -8,10 +8,11 @@
 .offers .text-center p {
     font-weight: 700;
     font-size: 48px;
-    line-height:58.09px;
+    line-height: 58.09px;
     font-family: 'Inter', sans-serif;
     color: #0762CD;
 }
+
 .offers .container .card-body {
     display: flex;
     align-items: center;
@@ -148,7 +149,8 @@
     border-radius: 50%;
     width: 42px;
     height: 42px;
-    margin-top: 9px;
+    margin-top: 28px;
+    margin-left: 26px;
 }
 
 .offers .row .question {

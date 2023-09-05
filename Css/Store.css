@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200&display=swap');
+
+/* body a , body ul li {
+    list-style: none;
+    text-decoration: none;
+} */
+.offers .container .card-body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.offers .container .row .card {
+    background-color: #0C396E;
+    border-radius: 25px;
+    
+}
+.offers .container .row .Layout{
+    width: 610px;
+    height: 407px;
+}
+
+.offers .card .card-body .icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0762CD;
+    border-radius: 50%;
+    width: 68px;
+    height: 68px;
+
+}
+
+.offers .card .card-body .card-title,
+.offers .card .card-body .card-text {
+    color: #fff;
+
+}
+
+.offers .card .card-body .card-title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.05px;
+    margin-top: 10px;
+    font-family: 'Inter', sans-serif;
+}
+
+.offers .card .card-body .card-text {
+    text-align: right;
+    width: 438px;
+    height: 86px;
+    line-height: 36px;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 65px;
+}
+
+.offers .card .card-body .title {
+    font-weight: 700;
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    line-height: 29.05px;
+    margin-top: 10px;
+    color: #ffffff;
+}
+
+.offers .card .card-body .box {
+    width: 432px;
+    height: 37px;
+    border-radius: 10px;
+    background: #fff;
+}
+
+.offers .card .card-body .box p {
+    font-size: 16px;
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 40.36px;
+    text-align: center;
+}
+
+.offers .card .card-body .box2 {
+    width: 432px;
+    height: 37px;
+    border-radius: 10px;
+    background: #0762CD;
+    
+}
+
+.offers .card .card-body .box2 p {
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 40.36px;
+    text-align: center;
+}

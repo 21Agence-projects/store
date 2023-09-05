@@ -81,7 +81,7 @@
 }
 
 .offers .card .card-body .box {
-    /* width: 432px; */
+    width: 432px;
     height: 37px;
     border-radius: 10px;
     background: #fff;
@@ -98,7 +98,7 @@
 }
 
 .offers .card .card-body .box2 {
-    /* width: 432px; */
+    width: 432px;
     height: 37px;
     border-radius: 10px;
     background: #0762CD;
@@ -243,6 +243,7 @@
 
     .offers .question .info {
         font-size: 22px;
+        width: 199px;
     }
 
     .offers .question .infos {
@@ -253,10 +254,32 @@
     }
 
     .offers .Membership {
-        font-size: 22px !important;
+        font-size: 16px !important;
         text-align: right;
         margin-right: 4%;
         margin-top: 6px;
     }
 
+    .offers .card .card-body .box,
+    .offers .card .card-body .box2 {
+        width: 100%;
+    }
+
+    .offers .row .pargraph {
+        line-height: 1.8;
+        font-size: 15px;
+    }
+
+    .offers .question .infos {
+        font-size: 16px !important;
+    }
+
+    .offers .footer{
+        margin-bottom: 50% !important;
+    }
+    .offers .footer .info{
+        font-size: 16px !important;
+        text-align: right;
+        margin-right:5%;
+    }
 }

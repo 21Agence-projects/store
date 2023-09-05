@@ -13,9 +13,10 @@
 .offers .container .row .card {
     background-color: #0C396E;
     border-radius: 25px;
-    
+
 }
-.offers .container .row .Layout{
+
+.offers .container .row .Layout {
     width: 610px;
     height: 407px;
 }
@@ -88,7 +89,7 @@
     height: 37px;
     border-radius: 10px;
     background: #0762CD;
-    
+
 }
 
 .offers .card .card-body .box2 p {
@@ -99,4 +100,77 @@
     font-size: 16px;
     line-height: 40.36px;
     text-align: center;
+}
+
+.offers .text {
+    margin-left: 10%;
+}
+
+.offers .text p {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.05px;
+    text-align: right;
+    font-family: 'Inter', sans-serif;
+    margin: 20px;
+}
+
+.offers .text ul {
+    width: 870px;
+    height: 233px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35.05px;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 35px;
+}
+
+.offers .text ul li {
+    text-align: right;
+    color: #fff;
+}
+
+
+.offers .row .links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0762CD;
+    border-radius: 50%;
+    width: 42px;
+    height: 42px;
+    margin-top: 9px;
+}
+
+.offers .row .question {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-left: -5%;
+}
+
+.offers .row .question img {
+    width: 46px;
+    height: 46px;
+    margin-bottom: 6px;
+}
+
+.offers .row .info {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    width: 233px;
+    font-family: 'Inter', sans-serif;
+    line-height: 2.2;
+}
+
+.offers .row .pargraph {
+    color: #fff;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 20.057px;
+    text-align: right;
+    margin-left: -7%;
+    font-family: 'Inter', sans-serif;
 }

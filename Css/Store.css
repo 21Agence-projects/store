@@ -4,6 +4,14 @@
     list-style: none;
     text-decoration: none;
 } */
+
+.offers .text-center p {
+    font-weight: 700;
+    font-size: 48px;
+    line-height:58.09px;
+    font-family: 'Inter', sans-serif;
+    color: #0762CD;
+}
 .offers .container .card-body {
     display: flex;
     align-items: center;

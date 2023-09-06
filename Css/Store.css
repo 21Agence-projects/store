@@ -205,6 +205,20 @@ body {
     margin-left: -2%;
 }
 
+@media screen and (max-width: 320px) {
+
+    .offers .card .card-body .card-text {
+        font-size: 18px;
+        width: 164%;
+    }
+
+    .offers .question .info {
+        font-size: 15px !important;
+    }
+    .offers .row .pargraph {
+
+    }
+}
 
 @media screen and (max-width: 600px) {
 
@@ -656,6 +670,7 @@ body {
         height: 1407px !important;
         margin-bottom: 110%;
     }
+
     .subscription .convert .card .vectore h2 {
         font-size: 15px;
         text-align: center;
@@ -663,12 +678,19 @@ body {
         margin-bottom: 30%;
         line-height: 1.8;
     }
-    
-.subscription .convert input ,
-.subscription .convert button  {
-    width: 100%;
+
+    .subscription .convert input,
+    .subscription .convert button {
+        width: 100%;
+    }
+
+    .subscription .convert .col-md-6:last-child input {
+        width: 100%;
+    }
 }
-.subscription .convert .col-md-6:last-child input {
-    width: 100%;
-}
+
+@media screen and (max-width: 320px) {
+    .subscription .convert .card .vectore h2 {
+        
+    }
 }

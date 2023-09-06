@@ -608,6 +608,8 @@ textarea {
 }
 
 
+
+
 .subscription .convert .card {
     margin-top: 40%;
 }
@@ -924,6 +926,7 @@ textarea {
 
     .time .row .card .block button {
         margin: inherit;
+        width: 100%;
         /* Adjust button margin */
     }
 
@@ -964,4 +967,86 @@ textarea {
     line-height: 20.57px;
     color: #0C396E;
     line-height: 1.8;
+}
+
+.content .row .text-end p {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38.73px;
+    color: #0762CD;
+    margin-bottom: 3%;
+}
+
+.content .horizontal,
+.content .text-info .horizontal {
+    width: 100%;
+    height: 3px;
+    background: #0762CD;
+}
+
+.content .text-info .text {
+    font-size: 20px;
+    color: #666666;
+    font-weight: 600;
+    line-height: 20.57px;
+    margin-top: 20px;
+}
+
+.content .text-info .title {
+    color: #666666;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 20.57px;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+
+
+.checkbox .input-control {
+    display: flex;
+    align-items: flex-start;
+    /* Vertically align content */
+    flex-wrap: wrap;
+    /* Wrap content to next line on smaller screens */
+}
+
+
+.checkbox .input-control ul {
+    line-height: 40px;
+}
+
+.checkbox svg {
+    margin-right: 20px;
+}
+
+.checkbox button {
+    color: #0762CD;
+    width: 152px;
+    height: 50px;
+    color: #fff;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+@media screen and (max-width: 768px) {
+    .content .text-info .title {
+        line-height: 1.5;
+        
+    }
+    .checkbox .input-control ul {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 1.8;
+    }
+
+    .checkbox button{
+        transform: translate(-50%, -50%);
+        margin-top: 10%;
+    }
+    .box{
+        margin-bottom: 40%;
+    }
 }

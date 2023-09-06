@@ -274,12 +274,80 @@
         font-size: 16px !important;
     }
 
-    .offers .footer{
+    .offers .footer {
         margin-bottom: 50% !important;
     }
-    .offers .footer .info{
+
+    .offers .footer .info {
         font-size: 16px !important;
         text-align: right;
-        margin-right:5%;
+        margin-right: 5%;
+    }
+}
+
+.accounts .row .images {
+    width: 597px;
+    height: 435px;
+}
+
+.accounts .row .card-title {
+    width: 320px;
+    height: 94px;
+    font-size: 35px;
+    line-height: 52.36px;
+    color: #0C396E;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    margin-left: 43%;
+    text-align: right;
+}
+
+.accounts .row .card-text {
+    width: 359px;
+    height: 52px;
+    font-size: 17px;
+    line-height: 30.57px;
+    text-align: right;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    color: #0C396E;
+    margin-left: 37%;
+    margin-top: 4%;
+}
+
+
+.accounts .row .icons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 7%;
+    margin-left: 55%;
+}
+
+.accounts .row .icons img {
+    margin-right: -4%;
+}
+
+.accounts .row .payments{
+    text-align: right;
+    margin-right: 11%;
+    margin-top: 3%;
+}
+
+.accounts .row .payments img{
+    margin-right:2%;
+}
+
+@media screen and (max-width: 600px) {
+    .accounts .row .card-title{
+        margin-top: 11%;
+    }
+    .accounts .row .icons{
+        text-align: right !important;
+    }
+    .accounts .row .payments{
+        text-align: end;
+    margin-right: 11px;
+    margin-top: 10px;
     }
 }

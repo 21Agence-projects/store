@@ -5,7 +5,7 @@ body {
 
 }
 
-textarea{
+textarea {
     resize: none;
 }
 
@@ -871,7 +871,7 @@ textarea{
     margin-bottom: 4%;
 }
 
-.time .row .card .input-group{
+.time .row .card .input-group {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -882,32 +882,59 @@ textarea{
     -o-border-radius: 25px;
     background-color: #0762CD;
     width: 961px;
-    height:126px;
+    height: 126px;
     color: #fff;
     text-align: left;
 }
 
-.time .row .card .input-group button{
+.time .row .card .input-group button {
     color: #fff;
     width: 214px;
     height: 69px;
-    border-radius:25px;
+    border-radius: 25px;
     background-color: #0C396E;
-    -webkit-border-radius:25px;
-    -moz-border-radius:25px;
-    -ms-border-radius:25px;
-    -o-border-radius:25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
 }
 
 @media screen and (max-width: 768px) {
-    .footer , .discount ,.factors , .note , .time{
-        margin:10%;
+
+    .footer,
+    .discount,
+    .factors,
+    .note,
+    .time {
+        margin: 10%;
     }
-    .time{
+
+    .time {
         margin-bottom: 50% !important;
     }
 
-    .time .input-group{
+    .time .input-group {
         display: none;
     }
+
+    .final {
+        margin-bottom: 57% !important;
+    }
+}
+
+
+.final .row .text-end p {
+    font-size: 32px;
+    color: #0C396E;
+    line-height: 38.73px;
+    font-weight: 700;
+}
+
+.final .row .list ul li {
+    text-align: right;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 20.57px;
+    color: #0C396E;
+    line-height: 1.8;
 }

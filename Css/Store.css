@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200&display=swap');
 
+body {
+    font-family: 'Inter', sans-serif;
+
+}
+
 /* body a , body ul li {
     list-style: none;
     text-decoration: none;
@@ -328,26 +333,342 @@
     margin-right: -4%;
 }
 
-.accounts .row .payments{
+.accounts .row .payments {
     text-align: right;
     margin-right: 11%;
     margin-top: 3%;
 }
 
-.accounts .row .payments img{
-    margin-right:2%;
+.accounts .row .payments img {
+    margin-right: 2%;
 }
 
 @media screen and (max-width: 600px) {
-    .accounts .row .card-title{
+
+    .accounts .row .card-title {
         margin-top: 11%;
     }
-    .accounts .row .icons{
+
+    .accounts .row .icons {
         text-align: right !important;
     }
-    .accounts .row .payments{
+
+    .accounts .row .payments {
         text-align: end;
-    margin-right: 11px;
-    margin-top: 10px;
+        margin-right: 11px;
+        margin-top: 10px;
     }
+}
+
+.subscription .card {
+    background-color: #0C396E;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+
+}
+
+.subscription .card {
+    height: 367px;
+}
+
+.subscription .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subscription .card-body .title {
+    font-weight: 700;
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    line-height: 29.05px;
+    margin-top: 10px;
+    color: #ffffff;
+}
+
+
+
+.subscription .card .card-body .icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0762CD;
+    border-radius: 50%;
+    width: 68px;
+    height: 68px;
+    margin-top: 10px;
+
+}
+
+
+.subscription .card .card-body .box {
+    width: 432px;
+    height: 37px;
+    border-radius: 10px;
+    background: #fff;
+}
+
+.subscription .card .card-body .box p {
+    font-size: 16px;
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 40.36px;
+    text-align: center;
+}
+
+.subscription .card .card-body .box2 {
+    width: 432px;
+    height: 37px;
+    border-radius: 10px;
+    background: #0762CD;
+
+}
+
+.subscription .card .card-body .box2 p {
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 40.36px;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 600px) {
+    .subscription .card {
+        margin-left: 30%;
+        margin-bottom: 40%;
+    }
+
+    .subscription .card .card-body .box,
+    .subscription .card .card-body .box2 {
+        width: 100%;
+    }
+
+}
+
+
+.subscription .input-group {
+    width: 1007px;
+    height: 125px;
+    border-radius: 25px;
+    background: #0762CD;
+    border: none;
+    margin-top: 5%;
+}
+
+.subscription .input-group button {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    width: 34%;
+    border-left: 2px solid #fff;
+}
+
+.subscription .input-group input {
+    background-color: #0762CD;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+
+.subscription .form-control::placeholder {
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.05px;
+}
+
+.subscription .vectore {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+
+.subscription .vectore img {
+    width: 50px;
+}
+
+.subscription .vectore h2 {
+    margin-right: 45px;
+    color: #fff;
+    font-size: 30px;
+    line-height: 36.31px;
+    font-weight: 700;
+}
+
+.subscription .text p {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36.31px;
+    width: 351px;
+    height: 72px;
+    color: #fff;
+    margin-top: 5%;
+    margin-left: 1%;
+}
+
+.subscription .title-card span {
+    color: #84B740;
+    font-weight: 700;
+    line-height: 24.2px;
+    width: 926px;
+    height: 48px;
+}
+
+.subscription .payments {
+    margin-top: 2%;
+}
+
+.subscription .payments img {
+    margin-right: 10px;
+}
+
+
+@media screen and (max-width: 600px) {
+
+
+    .subscription .input-group {
+        width: 100%;
+    }
+
+    .subscription .input-group button {
+        font-size: 18px;
+    }
+
+    .subscription .text p {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .subscription .title-card {
+        text-align: right;
+        font-size: 20px;
+        margin-bottom: 12%;
+        line-height: 1.5;
+
+    }
+
+    .subscription .text-name {
+        text-align: right;
+    }
+
+    .subscription .text-name p {
+        font-size: 20px;
+        line-height: 1.8;
+    }
+}
+
+.subscription .text-name {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.05px;
+    color: #fff;
+}
+
+
+.subscription .text-name a {
+    text-decoration: underline;
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.05px;
+    color: #fff;
+}
+
+
+.subscription .convert .card {
+    margin-top: 40%;
+}
+
+.subscription .convert .card .vectore h2 {
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 20.57px;
+    width: 981px;
+    height: 42px;
+}
+
+.subscription .convert label {
+    color: #fff;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    line-height: 20.57px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+
+.subscription .convert input {
+    background-color: #0762CD;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    outline: none;
+    border: none;
+    width: 294px;
+    height: 58px;
+    color: #fff;
+}
+
+.subscription .convert .col-md-6:last-child input {
+    width: 648px;
+}
+
+.subscription .convert .card-info {
+    text-align: center;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 600;
+    height: 42px;
+}
+
+.subscription .convert button {
+    background: #0762CD;
+    width: 294px;
+    height: 58px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+@media screen and (max-width: 600px) {
+
+    .subscription .convert .card {
+        height: 1407px !important;
+        margin-bottom: 110%;
+    }
+    .subscription .convert .card .vectore h2 {
+        font-size: 15px;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 30%;
+        line-height: 1.8;
+    }
+    
+.subscription .convert input ,
+.subscription .convert button  {
+    width: 100%;
+}
+.subscription .convert .col-md-6:last-child input {
+    width: 100%;
+}
 }

@@ -9,11 +9,6 @@ textarea {
     resize: none;
 }
 
-/* body a , body ul li {
-    list-style: none;
-    text-decoration: none;
-} */
-
 .offers {
     margin-bottom: 50px;
 }
@@ -60,7 +55,7 @@ textarea {
 
 }
 
-.offers .card .card-body .card-title {
+.offers .card .card-body .card-text {
     font-size: 24px;
     font-weight: 700;
     line-height: 29.05px;
@@ -68,7 +63,7 @@ textarea {
     font-family: 'Inter', sans-serif;
 }
 
-.offers .card .card-body .card-text {
+.offers .card .card-body .card-title {
     text-align: right;
     width: 438px;
     height: 86px;
@@ -166,18 +161,18 @@ textarea {
     margin-left: 26px;
 }
 
-.offers .row .question {
+/* .offers .row .question {
     display: flex;
     justify-content: end;
     align-items: center;
     margin-left: -5%;
-}
+} */
 
-.offers .row .question img {
-    /* width: 46px; */
+/* .offers .row .question img {
+    /* width: 46px; 
     height: 46px;
     margin-bottom: 6px;
-}
+} */
 
 .offers .row .info {
     color: #fff;
@@ -188,7 +183,7 @@ textarea {
     line-height: 2.2;
 }
 
-.offers .row .pargraph {
+/* .offers .row .pargraph {
     color: #fff;
     font-size: 17px;
     font-weight: 700;
@@ -196,7 +191,7 @@ textarea {
     text-align: right;
     font-family: 'Inter', sans-serif;
     margin-left: -6%;
-}
+} */
 
 .offers .infos {
     width: 597px;
@@ -209,6 +204,12 @@ textarea {
     margin-left: -2%;
 }
 
+/* .offers .section {
+    width: 1190px;
+    height: 407px;
+    margin-left: 37px;
+} */
+
 @media screen and (max-width: 320px) {
 
     .offers .card .card-body .card-text {
@@ -216,14 +217,16 @@ textarea {
         width: 164%;
     }
 
-    .offers .question .info {
+    /* .offers .question .info {
         font-size: 15px !important;
-    }
-
-    .offers .row .pargraph {}
+    } */
 }
 
 @media screen and (max-width: 600px) {
+
+    .offers .card .card-body .card-title {
+        width: 100%;
+    }
 
     .offers .col-lg-6,
     .offers .col-lg-12 {
@@ -255,25 +258,26 @@ textarea {
 
     .offers .text ul {
         font-size: 14px;
-        margin-bottom: 60%;
+        margin-bottom: 68%;
     }
 
     .offers .Terms {
-        margin-top: -11%;
-        margin-bottom: 31%;
+        margin-top: 4%;
+        margin-bottom: 30%;
+        margin-left: 4% !important;
     }
 
-    .offers .question .info {
+    /* .offers .question .info {
         font-size: 22px;
         width: 199px;
-    }
+    } */
 
-    .offers .question .infos {
+    /* .offers .question .infos {
         font-size: 18px;
         text-align: right;
         margin-right: 16px;
         margin-top: 19px;
-    }
+    } */
 
     .offers .Membership {
         font-size: 16px !important;
@@ -285,16 +289,17 @@ textarea {
     .offers .card .card-body .box,
     .offers .card .card-body .box2 {
         width: 100%;
+        margin-bottom: 1%;
     }
 
-    .offers .row .pargraph {
+    /* .offers .row .pargraph {
         line-height: 1.8;
         font-size: 15px;
-    }
+    } */
 
-    .offers .question .infos {
+    /* .offers .question .infos {
         font-size: 16px !important;
-    }
+    } */
 
     .offers .footer {
         margin-bottom: 50% !important;
@@ -847,9 +852,13 @@ textarea {
     color: #fff;
     background: #0762CD;
     border-radius: 25px;
-    margin-left: 24%;
+    margin-left: 22%;
     margin-top: 4%;
     margin-bottom: 4%;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
 }
 
 .time .row .card .input-group {
@@ -1180,4 +1189,177 @@ textarea {
     font-size: 25px;
     font-weight: 500;
 
+}
+
+
+@media screen and (max-width: 768px) {
+    .profile-form .card {
+        margin-bottom: 20%;
+    }
+
+    .profile-form .acountes {
+        display: flex;
+        flex-direction: column;
+        align-items: inherit;
+    }
+
+    .profile-form .text input {
+        margin-right: 1%;
+    }
+
+    .profile-form .email input {
+        margin-right: 0%;
+    }
+
+    .profile-form .phone input {
+        margin-right: 1%;
+    }
+
+    .profile-form .acountes .icons {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+}
+
+
+.list .card {
+    background-color: #0C396E;
+    border-radius: 25px;
+}
+
+.subscribe .card,
+.ship .card,
+.found .card,
+.finish .card,
+.person .card {
+    background-color: #0C396E;
+    border-radius: 25px;
+}
+
+
+.list .card .card-title {
+    color: #fff;
+    font-weight: 700;
+    text-align: right;
+    font-size: 24px
+}
+
+.list .card .info {
+    margin-right: 2%;
+    margin-bottom: 4%;
+    margin-top: -2%;
+}
+
+.list .card .info ul li {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.subscribe .card .question,
+.ship .card .question,
+.found .card .question,
+.finish .card .question,
+.person .card .question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4%;
+}
+
+.subscribe .card .question .icons,
+.ship .card .question .icons,
+.found .card .question .icons,
+.finish .card .question .icons,
+.person .card .question .icons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.subscribe .card .question .icons .card-title,
+.ship .card .question .icons .card-title,
+.found .card .question .icons .card-title,
+.finish .card .question .icons .card-title,
+.person .card .question .icons .card-title {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: right;
+    color: #fff;
+    margin-right: 20px;
+}
+
+.subscribe .card .links,
+.ship .card .links,
+.found .card .links,
+.finish .card .links,
+.person .card .links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0762CD;
+    border-radius: 50%;
+    width: 42px;
+    height: 42px;
+    margin-top: 28px;
+    margin-left: 26px;
+}
+
+.subscribe .card .card-text,
+.ship .card .card-text,
+.found .card .card-text,
+.finish .card .card-text,
+.person .card .card-text {
+    font-size: 17px;
+    font-weight: 700;
+    text-align: right;
+    color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+    .list .card .info ul li {
+        font-size: 18px !important;
+    }
+
+    .subscribe,
+    .ship,
+    .found,
+    .person {
+        margin-bottom: 20%;
+    }
+
+    .subscribe .card .question,
+    .ship .card .question,
+    .found .card .question,
+    .finish .card .question,
+    .person .card .question {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .found .card .question .icons .card-title,
+    .finish .card .question .icons .card-title,
+    .person .card .question .icons .card-title {
+        font-size: 15px;
+    }
+
+    .found .card .links,
+    .finish .card .links,
+    .person .card .links {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #0762CD;
+        border-radius: 50%;
+        width: 68px;
+        height: 68 px;
+        margin-top: 28px;
+        margin-left: 26px;
+    }
+
+    .box_sections {
+        margin-bottom: 62%;
+    }
 }

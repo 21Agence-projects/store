@@ -1049,7 +1049,7 @@ textarea {
     }
 
     .box {
-        margin-bottom: 40%;
+        margin-bottom: 45%;
     }
 }
 
@@ -1084,7 +1084,7 @@ textarea {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 1%;
-    height: 55px;
+
 }
 
 .add .tap .list {
@@ -1107,4 +1107,21 @@ textarea {
     width: 96%;
     height: 3px;
     background: #0762CD;
+}
+
+@media screen and (max-width: 768px) {
+    .add .tap .card-text {
+        font-size: 15px;
+        margin-right: 10px;
+        text-align: right;
+    }
+
+    .add .tap {
+        display: flex;
+        align-items: baseline;
+    }
+
+    .add .tap .icons img{
+        width: 35px;
+    }
 }

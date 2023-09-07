@@ -468,9 +468,30 @@ textarea {
         margin-bottom: 40%;
     }
 
+    .subscription .card .card-body .box{
+        margin-bottom: 1%;
+    }
     .subscription .card .card-body .box,
     .subscription .card .card-body .box2 {
         width: 100%;
+    }
+
+    .footer .row .card .card-body h4,
+    .discount .row .card .card-body h4,
+    .factors  .row .card .card-body h4
+     {
+        font-size: 15px !important;
+        margin-bottom: 11%;
+    }
+
+    .factors .row .card .card-body ul li{
+        font-size: 12px !important;
+        line-height:20px
+    }
+
+    .final .row .text-end p{
+        margin-right: 30px;
+        font-size: 30px;
     }
 
 }
@@ -687,6 +708,7 @@ textarea {
         width: 100%;
         margin-bottom: 30%;
         line-height: 1.8;
+        text-align: right;
     }
 
     .subscription .convert input,
@@ -1362,4 +1384,5 @@ textarea {
     .box_sections {
         margin-bottom: 62%;
     }
+
 }

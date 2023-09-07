@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Inter', sans-serif;
-
+    overflow-x: hidden;
 }
 
 textarea {
@@ -1067,15 +1067,15 @@ textarea {
         margin-top: 10%;
     }
 
-    .box {
+    /* .box {
         margin-bottom: 45%;
-    }
+    } */
 }
 
 @media screen and (max-width:1280px) {
-    .box {
+    /* .box {
         margin-bottom: 95%;
-    }
+    } */
 }
 
 .add .card {

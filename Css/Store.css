@@ -9,484 +9,43 @@ textarea {
     resize: none;
 }
 
-.offers {
-    margin-bottom: 50px;
-}
-
-.offers .text-center p {
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 58.09px;
-    font-family: 'Inter', sans-serif;
-    color: #0762CD;
-}
-
-.offers .container .card-body {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-
-.offers .container .row .card {
-    background-color: #0C396E;
-    border-radius: 25px;
-
-}
-
-.offers .container .row .Layout {
-    /* width: 610px; */
-    height: 407px;
-}
-
-.offers .card .card-body .icons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #0762CD;
-    border-radius: 50%;
-    width: 68px;
-    height: 68px;
-
-}
-
-.offers .card .card-body .card-title,
-.offers .card .card-body .card-text {
-    color: #fff;
-
-}
-
-.offers .card .card-body .card-text {
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 29.05px;
-    margin-top: 10px;
-    font-family: 'Inter', sans-serif;
-}
-
-.offers .card .card-body .card-title {
-    text-align: right;
-    width: 438px;
-    height: 86px;
-    line-height: 36px;
-    font-size: 16px;
-    font-family: 'Inter', sans-serif;
-    font-weight: 700;
-    margin-top: 15px;
-    margin-bottom: 65px;
-}
-
-.offers .card .card-body .title {
-    font-weight: 700;
-    font-size: 24px;
-    font-family: 'Inter', sans-serif;
-    line-height: 29.05px;
-    margin-top: 10px;
-    color: #ffffff;
-}
-
-.offers .card .card-body .box {
-    width: 432px;
-    height: 37px;
-    border-radius: 10px;
-    background: #fff;
-}
-
-.offers .card .card-body .box p {
-    font-size: 16px;
-    color: #000;
-    font-family: 'Inter', sans-serif;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 40.36px;
-    text-align: center;
-}
-
-.offers .card .card-body .box2 {
-    width: 432px;
-    height: 37px;
-    border-radius: 10px;
-    background: #0762CD;
-
-}
-
-.offers .card .card-body .box2 p {
-    font-size: 16px;
-    color: #fff;
-    font-family: 'Inter', sans-serif;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 40.36px;
-    text-align: center;
-}
-
-.offers .text {
-    margin-left: 10%;
-}
-
-.offers .text p {
-    color: #fff;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 29.05px;
-    text-align: right;
-    font-family: 'Inter', sans-serif;
-    margin: 20px;
-}
-
-.offers .text ul {
-    /* width: 870px; */
-    height: 233px;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 35.05px;
-    font-family: 'Inter', sans-serif;
-    margin-bottom: 35px;
-}
-
-.offers .text ul li {
-    text-align: right;
-    color: #fff;
-}
-
-
-.offers .row .links {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #0762CD;
-    border-radius: 50%;
-    width: 42px;
-    height: 42px;
-    margin-top: 28px;
-    margin-left: 26px;
-}
-
-/* .offers .row .question {
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    margin-left: -5%;
-} */
-
-/* .offers .row .question img {
-    /* width: 46px; 
-    height: 46px;
-    margin-bottom: 6px;
-} */
-
-.offers .row .info {
-    color: #fff;
-    font-size: 24px;
-    font-weight: 700;
-    width: 233px;
-    font-family: 'Inter', sans-serif;
-    line-height: 2.2;
-}
-
-/* .offers .row .pargraph {
-    color: #fff;
-    font-size: 17px;
-    font-weight: 700;
-    line-height: 20.057px;
-    text-align: right;
-    font-family: 'Inter', sans-serif;
-    margin-left: -6%;
-} */
-
-.offers .infos {
-    width: 597px;
-    font-size: 21px;
-    margin-left: -3%;
-}
-
-.offers .Membership {
-    width: 597px;
-    margin-left: -2%;
-}
-
-/* .offers .section {
-    width: 1190px;
-    height: 407px;
-    margin-left: 37px;
-} */
-
-@media screen and (max-width: 320px) {
-
-    .offers .card .card-body .card-text {
-        font-size: 18px;
-        width: 164%;
-    }
-
-    /* .offers .question .info {
-        font-size: 15px !important;
-    } */
-}
-
-@media screen and (max-width: 600px) {
-
-    .offers .card .card-body .card-title {
-        width: 100%;
-    }
-
-    .offers .col-lg-6,
-    .offers .col-lg-12 {
-        margin-left: 4%;
-    }
-
-
+@media screen and (max-width:600) {
     .text-center p {
         font-size: 31px;
     }
+}
 
-    .offers .card {
-        margin-bottom: 15px;
+
+
+@media screen and (max-width:300px) {
+    .factors .row .card .card-body ul {
+        margin-right: -16%;
+        width: 182px;
     }
+}
 
-    .offers .section {
-        margin: none;
-    }
-
-    .offers .row .card-text {
-        font-size: 20px;
-        padding: 0 53px;
-    }
-
-    .offers .box,
-    .offers .box2 {
-        width: 100%;
-    }
-
-    .offers .text ul {
-        font-size: 14px;
-        margin-bottom: 68%;
-    }
-
-    .offers .Terms {
-        margin-top: 4%;
-        margin-bottom: 30%;
-        margin-left: 4% !important;
-    }
-
-    /* .offers .question .info {
-        font-size: 22px;
-        width: 199px;
-    } */
-
-    /* .offers .question .infos {
-        font-size: 18px;
-        text-align: right;
-        margin-right: 16px;
-        margin-top: 19px;
-    } */
-
-    .offers .Membership {
-        font-size: 16px !important;
-        text-align: right;
-        margin-right: 4%;
-        margin-top: 6px;
-    }
-
-    .offers .card .card-body .box,
-    .offers .card .card-body .box2 {
-        width: 100%;
-        margin-bottom: 1%;
-    }
-
-    /* .offers .row .pargraph {
+@media screen and (max-width: 600px) {
+    .factors .row .card .card-body ul {
         line-height: 1.8;
-        font-size: 15px;
-    } */
-
-    /* .offers .question .infos {
-        font-size: 16px !important;
-    } */
-
-    .offers .footer {
-        margin-bottom: 50% !important;
+        width: 252px;
     }
 
-    .offers .footer .info {
-        font-size: 16px !important;
-        text-align: right;
-        margin-right: 5%;
-    }
-}
-
-.accounts .row .images {
-    width: 597px;
-    height: 435px;
-}
-
-.accounts .row .card-title {
-    width: 320px;
-    height: 94px;
-    font-size: 35px;
-    line-height: 52.36px;
-    color: #0C396E;
-    font-weight: 700;
-    font-family: 'Inter', sans-serif;
-    margin-left: 43%;
-    text-align: right;
-}
-
-.accounts .row .card-text {
-    width: 359px;
-    height: 52px;
-    font-size: 17px;
-    line-height: 30.57px;
-    text-align: right;
-    font-family: 'Inter', sans-serif;
-    font-weight: 700;
-    color: #0C396E;
-    margin-left: 37%;
-    margin-top: 4%;
-}
-
-
-.accounts .row .icons {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-top: 7%;
-    margin-left: 55%;
-}
-
-.accounts .row .icons img {
-    margin-right: -4%;
-}
-
-.accounts .row .payments {
-    text-align: right;
-    margin-right: 11%;
-    margin-top: 3%;
-}
-
-.accounts .row .payments img {
-    margin-right: 2%;
-}
-
-@media screen and (max-width: 600px) {
-
-    .accounts .row .card-title {
-        margin-top: 11%;
-    }
-
-    .accounts .row .icons {
-        text-align: right !important;
-    }
-
-    .accounts .row .payments {
-        text-align: end;
-        margin-right: 11px;
-        margin-top: 10px;
-    }
-}
-
-.subscription .card {
-    background-color: #0C396E;
-    border-radius: 25px;
-    -webkit-border-radius: 25px;
-    -moz-border-radius: 25px;
-    -ms-border-radius: 25px;
-    -o-border-radius: 25px;
-
-}
-
-.subscription .card {
-    height: 367px;
-}
-
-.subscription .card-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.subscription .card-body .title {
-    font-weight: 700;
-    font-size: 24px;
-    font-family: 'Inter', sans-serif;
-    line-height: 29.05px;
-    margin-top: 10px;
-    color: #ffffff;
-}
-
-
-
-.subscription .card .card-body .icons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #0762CD;
-    border-radius: 50%;
-    width: 68px;
-    height: 68px;
-    margin-top: 10px;
-
-}
-
-
-.subscription .card .card-body .box {
-    width: 432px;
-    height: 37px;
-    border-radius: 10px;
-    background: #fff;
-}
-
-.subscription .card .card-body .box p {
-    font-size: 16px;
-    color: #000;
-    font-family: 'Inter', sans-serif;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 40.36px;
-    text-align: center;
-}
-
-.subscription .card .card-body .box2 {
-    width: 432px;
-    height: 37px;
-    border-radius: 10px;
-    background: #0762CD;
-
-}
-
-.subscription .card .card-body .box2 p {
-    font-size: 16px;
-    color: #fff;
-    font-family: 'Inter', sans-serif;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 40.36px;
-    text-align: center;
-}
-
-
-@media screen and (max-width: 600px) {
-    .subscription .card {
-        margin-left: 30%;
-        margin-bottom: 40%;
-    }
-
-    .subscription .card .card-body .box {
-        margin-bottom: 1%;
-    }
-
-    .subscription .card .card-body .box,
-    .subscription .card .card-body .box2 {
-        width: 100%;
-    }
 
     .footer .row .card .card-body h4,
     .discount .row .card .card-body h4,
-    .factors .row .card .card-body h4 {
+    .factors .row .card .card-body h4,
+    .note .row .card .card-body h4 {
         font-size: 15px !important;
-        margin-bottom: 11%;
+        margin-bottom: 3%;
+    }
+
+    .factors .row .card .card-body ul {
+        margin-right: -16%;
     }
 
     .factors .row .card .card-body ul li {
         font-size: 12px !important;
-        line-height: 20px
+        line-height: 28px;
     }
 
     .final .row .text-end p {
@@ -497,242 +56,51 @@ textarea {
 }
 
 
-.subscription .input-group {
-    width: 1007px;
-    height: 125px;
-    border-radius: 25px;
-    background: #0762CD;
-    border: none;
-    margin-top: 5%;
-}
-
-.subscription .input-group button {
-    color: #fff;
-    font-size: 24px;
-    font-weight: 700;
-    width: 34%;
-    border-left: 2px solid #fff;
-}
-
-.subscription .input-group input {
-    background-color: #0762CD;
-    outline: none;
-    border: none;
-    border-radius: 25px;
-    -webkit-border-radius: 25px;
-    -moz-border-radius: 25px;
-    -ms-border-radius: 25px;
-    -o-border-radius: 25px;
-}
-
-
-.subscription .form-control::placeholder {
-    color: #fff;
-    text-align: center;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 29.05px;
-}
-
-.subscription .vectore {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin-top: 2%;
-    margin-left: 5%;
-}
-
-.subscription .vectore img {
-    width: 50px;
-}
-
-.subscription .vectore h2 {
-    margin-right: 45px;
-    color: #fff;
-    font-size: 30px;
-    line-height: 36.31px;
-    font-weight: 700;
-}
-
-.subscription .text p {
-    font-size: 30px;
-    font-weight: 700;
-    line-height: 36.31px;
-    width: 351px;
-    height: 72px;
-    color: #fff;
-    margin-top: 5%;
-    margin-left: 1%;
-}
-
-.subscription .title-card span {
-    color: #84B740;
-    font-weight: 700;
-    line-height: 24.2px;
-    width: 926px;
-    height: 48px;
-}
-
-.subscription .payments {
-    margin-top: 2%;
-}
-
-.subscription .payments img {
-    margin-right: 10px;
-}
-
-
-@media screen and (max-width: 600px) {
-
-
-    .subscription .input-group {
+@media screen and (max-width: 1000px) {
+    .time .row .card .block {
         width: 100%;
-    }
-
-    .subscription .input-group button {
-        font-size: 18px;
-    }
-
-    .subscription .text p {
-        font-size: 18px;
-        text-align: center;
-    }
-
-    .subscription .title-card {
-        text-align: right;
-        font-size: 20px;
-        margin-bottom: 12%;
-        line-height: 1.5;
-
-    }
-
-    .subscription .text-name {
-        text-align: right;
-    }
-
-    .subscription .text-name p {
-        font-size: 20px;
-        line-height: 1.8;
-        margin-top: -19%;
-    }
-
-    .subscription .card-body .title {
-        text-align: right;
+        margin: auto;
     }
 }
 
-.subscription .text-name {
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 29.05px;
-    color: #fff;
-}
-
-
-.subscription .text-name a {
-    text-decoration: underline;
-    margin-bottom: 10px;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 29.05px;
-    color: #fff;
-}
-
-
-
-
-.subscription .convert .card {
-    margin-top: 40%;
-}
-
-.subscription .convert .card .vectore h2 {
-    font-size: 17px;
-    font-weight: 600;
-    line-height: 20.57px;
-    width: 981px;
-    height: 42px;
-}
-
-.subscription .convert label {
-    color: #fff;
-    margin-right: 5%;
-    margin-bottom: 5%;
-    line-height: 20.57px;
-    font-size: 17px;
-    font-weight: 600;
-}
-
-
-.subscription .convert input {
-    background-color: #0762CD;
-    border-radius: 25px;
-    -webkit-border-radius: 25px;
-    -moz-border-radius: 25px;
-    -ms-border-radius: 25px;
-    -o-border-radius: 25px;
-    outline: none;
-    border: none;
-    width: 294px;
-    height: 58px;
-    color: #fff;
-}
-
-.subscription .convert .col-md-6:last-child input {
-    width: 648px;
-}
-
-.subscription .convert .card-info {
-    text-align: center;
-    font-size: 17px;
-    color: #fff;
-    font-weight: 600;
-    height: 42px;
-}
-
-.subscription .convert button {
-    background: #0762CD;
-    width: 294px;
-    height: 58px;
-    border-radius: 25px;
-    -webkit-border-radius: 25px;
-    -moz-border-radius: 25px;
-    -ms-border-radius: 25px;
-    -o-border-radius: 25px;
+@media screen and (max-width: 890px) {
+    .footet_section {
+        margin-bottom: 100%;
+    }
 }
 
 @media screen and (max-width: 600px) {
 
-    .subscription .convert .card {
-        height: 1407px !important;
-        margin-bottom: 110%;
+    .final .list ul li {
+        font-size: 14px !important;
+        line-height: 30px !important;
     }
 
-    .subscription .convert .card .vectore h2 {
-        font-size: 15px;
-        text-align: center;
-        width: 100%;
-        margin-bottom: 40%;
-        line-height: 1.8;
-        text-align: right;
+    .time .row .card h4 {
+        font-size: 20px !important;
+        line-height: 30px !important;
     }
 
-    .subscription .convert input,
-    .subscription .convert button {
-        width: 100%;
+    .footer .row .card .card-body p {
+        font-size: 21px !important;
+        margin-bottom: -9%;
     }
 
-    .subscription .convert .col-md-6:last-child input {
-        width: 100%;
+    .note .row .card .card-body p,
+    .final .row .text-end p {
+        font-size: 15px !important;
+        line-height: 24px !important;
     }
 
-    .subscription .input-group .btn {
-        font-size: 16px;
+    .footer .row .card .card-body h6,
+    .discount .row .card .card-body h6 {
+        font-size: 16px !important;
+        line-height: 25px !important;
     }
+
 }
 
-@media screen and (max-width: 320px) {
-    .subscription .convert .card .vectore h2 {}
-}
+
 
 .footer .row .card {
     border: #0762CD solid 5px !important;
@@ -826,9 +194,10 @@ textarea {
     line-height: 38.73px;
 }
 
-.factors .row .card .card-body ul {
+/* .factors .row .card .card-body ul {
     line-height: 1.8;
-}
+    width: 258px;
+} */
 
 .factors .row .card .card-body ul li {
     font-size: 17px;
@@ -1051,6 +420,14 @@ textarea {
 }
 
 @media screen and (max-width: 768px) {
+    .box_content {
+        margin-bottom: 30%;
+    }
+
+    .content .row .text-end p {
+        font-size: 23px;
+    }
+
     .content .text-info .title {
         line-height: 1.5;
 
@@ -1058,8 +435,8 @@ textarea {
 
     .checkbox .input-control ul {
         font-weight: 400;
-        font-size: 12px;
-        line-height: 1.8;
+        font-size: 15px;
+        line-height: 31px;
     }
 
     .checkbox button {
@@ -1134,8 +511,22 @@ textarea {
 }
 
 @media screen and (max-width: 768px) {
+
+    .add .card .card-title {
+        font-size: 26px;
+        margin-bottom: -4%;
+    }
+
+    .add .card .list-image {
+        width: 25px;
+    }
+
+    .add .card .card-text {
+        font-size: 20px;
+    }
+
     .add .tap .card-text {
-        font-size: 15px;
+        font-size: 12px;
         margin-right: 10px;
         text-align: right;
     }
@@ -1147,6 +538,7 @@ textarea {
 
     .add .tap .icons img {
         width: 35px;
+        margin-left: -14px;
     }
 }
 
@@ -1229,6 +621,17 @@ textarea {
 
 
 @media screen and (max-width: 768px) {
+
+    .box_add {
+        margin-bottom: 40%;
+    }
+
+    .profile-form {
+        padding-left: 3%;
+        padding-right: 3%;
+        margin-bottom: 40%;
+    }
+
     .profile-form .card {
         margin-bottom: 20%;
     }
@@ -1402,8 +805,488 @@ textarea {
 }
 
 
-@media screen and (max-width: 300px) {
-    /* .subscription .card {
-        margin-left: 71%;
-    } */
+
+
+/*accoints*/
+
+.stuff h4 {
+    font-size: 35px;
+    font-weight: 700;
+    color: #0C396E;
+    text-align: right;
+    margin-bottom: 10%;
+    line-height: 1.5;
+}
+
+.stuff p {
+    font-size: 17px;
+    font-weight: 700;
+    text-align: right;
+    color: #0C396E;
+    line-height: 1.5;
+}
+
+.stuff .icons {
+    margin-top: 11%;
+}
+
+.stuff .icons .image1 {
+    margin-right: 31%;
+}
+
+.stuff .links {
+    margin-top: 11%;
+}
+
+.stuff .links img {
+    margin-right: 7%;
+}
+
+.project .card {
+    background-color: #0C396E;
+    border-radius: 25px;
+}
+
+.project h4 {
+    color: #fff;
+}
+
+.project .card .card-body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.project .icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0762CD;
+    border-radius: 50%;
+    width: 68px;
+    height: 68px;
+}
+
+.project .card .btn_years a {
+    width: 432px;
+    height: 37px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.36px;
+    color: #0C396E;
+}
+
+.project .card .btn_months a {
+    width: 432px;
+    height: 37px;
+    border-radius: 10px;
+    font-size: 16px;
+    line-height: 19.36px;
+    color: #fff;
+    font-weight: 700;
+}
+
+
+@media screen and (max-width: 768px) {
+    .stuff h4 {
+        text-align: center;
+        margin-top: 4%;
+        font-size: 21px;
+    }
+
+    .stuff p {
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .stuff .icons {
+
+        margin-right: 21%;
+    }
+
+    .stuff .links {
+        margin-right: 20%
+    }
+
+    .project,
+    .subscribes,
+    .blog,
+    .featuers,
+    .subject,
+    .skill,
+    .vectore,
+    .questions {
+        padding-right: 2%;
+        padding-left: 2%;
+    }
+
+    .project .card .btn_years a,
+    .project .card .btn_months a {
+        width: 100%;
+        font-size: 14px;
+    }
+}
+
+
+
+.subscribes .card,
+.blog .card,
+.featuers .card,
+.vectore .card,
+.questions .card {
+    background-color: #0C396E;
+    border-radius: 25px;
+}
+
+.subscribes .card h4 {
+    font-size: 30px;
+    color: #FFFFFF;
+    font-weight: 700;
+
+}
+
+.subscribes .input-group {
+    width: 1007px;
+    height: 125px;
+    border-radius: 25px;
+    background: #0762CD;
+    border: none;
+    margin-top: 5%;
+}
+
+.subscribes .input-group button {
+    color: #fff;
+    font-size: 12px;
+    width: 34%;
+    border-left: 2px solid #fff;
+    font-size: 24px;
+    line-height: 29.05px;
+    font-weight: 700;
+}
+
+.subscribes .input-group input {
+    background-color: #0762CD;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    font-size: 24px;
+    line-height: 29.05px;
+    font-weight: 700;
+}
+
+
+.subscribes .form-control::placeholder {
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.05px;
+}
+
+.subscribes .card h1,
+.subscribes .card h4 {
+    font-size: 30px;
+    line-height: 36.31px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.subscribes .card p {
+    font-size: 20px;
+    line-height: 24.2px;
+    font-weight: 700;
+    color: #84B740;
+}
+
+.subscribes .images {
+    margin-bottom: 10%;
+}
+
+
+.blog h4 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.05px;
+}
+
+.blog p,
+.blog a {
+    color: #fff;
+    font-size: 24px;
+    line-height: 29.05px;
+}
+
+.featuers .card h4 {
+    font-size: 30px;
+    color: #fff;
+    font-weight: 600;
+    line-height: 36.31px;
+}
+
+.featuers .card p {
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 20.57px;
+}
+
+.featuers label {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 20.57px;
+    margin-bottom: 5%;
+}
+
+.featuers .form-control {
+    background: #0762CD;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    width: 294px;
+    height: 58px;
+}
+
+.featuers .card-text {
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 20.57px;
+}
+
+.featuers .btn-primary {
+    background-color: #0762CD !important;
+    width: 294px;
+    height: 58px;
+    border-radius: 25px
+}
+
+.featuers form {
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.featuers .last-input {
+    width: 630px;
+}
+
+@media screen and (max-width: 768px) {
+    .subscribes .input-group button {
+        font-size: 12px;
+    }
+
+    .subscribes .card h1,
+    .subscribes .card h4 {
+        font-size: 20px;
+    }
+
+    .subscribes .card p {
+        font-size: 20px;
+        line-height: 1.5;
+    }
+
+    .blog h4 {
+        font-size: 15px;
+    }
+
+    .blog p,
+    .blog a {
+        font-size: 15px;
+    }
+
+
+    .featuers label {
+        display: flex;
+        justify-content: center;
+        align-items: center
+    }
+
+    .featuers .form-control,
+    .featuers .btn-primary,
+    .featuers .last-input {
+        width: 100%;
+    }
+
+}
+
+
+
+/*index*/
+
+.subject p {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58.09px;
+    color: #0762CD;
+}
+
+.skill .card {
+    background-color: #0C396E;
+    border-radius: 25px;
+}
+
+.skill .card .card-body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.skill .icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0762CD;
+    border-radius: 50%;
+    width: 68px;
+    height: 68px;
+}
+
+.skill h4 {
+    color: #fff;
+    font-size: 24px;
+    line-height: 29.05px;
+    font-weight: 700;
+    margin-top: 2%;
+}
+
+.skill p {
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 36px;
+    text-align: center;
+    width: 438px;
+    margin-bottom: 15%;
+}
+
+.vectore h4 {
+    font-size: 24px;
+    text-align: right;
+    color: #fff;
+    line-height: 29.05px;
+    font-weight: 700;
+}
+
+.vectore .list ul li {
+    color: #fff;
+    text-align: right;
+    font-size: 24px;
+    line-height: 29.05px;
+    font-weight: 700;
+}
+
+
+@media screen and (max-width: 768px) {
+    .subject p {
+        font-size: 25px;
+        text-align: center;
+        margin: none;
+        margin: 0;
+    }
+
+    .skill .card {
+        margin-bottom: 10%;
+    }
+
+    .skill p {
+        width: 100%;
+    }
+
+    .vectore h4 {
+        font-size: 20px;
+    }
+
+    .vectore .list ul li {
+        font-size: 12px;
+        width: 100%;
+    }
+}
+
+
+
+.accordion .contentbx {
+    position: relative;
+    margin: 10px 20px;
+}
+
+.accordion .contentbx .pages {
+    position: relative;
+    padding: 10px;
+    /* background:#2694af; */
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.accordion .contentbx .pages .label {
+    margin-right: 24px;
+    font-weight: 700;
+    text-align: right;
+    line-height: 29.57px;
+}
+
+.accordion .contentbx .pages::before {
+    content: "+";
+    position: absolute;
+    top: 50%;
+    left: 3px;
+    transform: translate(-50%, -50%);
+    font-size: 1.5em;
+    background-color: #0762CD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    font-size: 24px;
+}
+
+.accordion .contentbx .content {
+    position: relative;
+    color: #fff;
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s;
+    overflow-y: auto;
+}
+
+.accordion .contentbx .content p {
+    margin-top: 4%;
+    font-size: 17px;
+    font-weight: 700;
+    text-align: right;
+    line-height: 20.57px;
+}
+
+.accordion .contentbx.active .content {
+    height: 130px;
+    padding: 10px;
+
+}
+
+@media screen and (max-width: 768px) {
+    .accordion .contentbx .pages {
+        margin-right: -20%;
+    }
+
+    .accordion .contentbx .pages .label {
+        margin-right: 5px;
+    }
+
+    .accordion .contentbx .pages::before {
+
+        left: -14px;
+
+    }
 }
